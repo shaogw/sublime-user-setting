@@ -1,0 +1,24 @@
+{
+	"installed_packages":
+	[
+		"AutoFileName",
+		"Better Completion",
+		"ColorPicker",
+		"Emmet",
+		"FileOpTabContextMenu",
+		"JavaScript & NodeJS Snippets",
+		"jQuery",
+		"LESS",
+		"Markdown Extended",
+		"Markdown Preview",
+		"MarkdownEditing",
+		"Monokai Extended",
+		"Perv - Color Scheme",
+		"RegReplace",
+		"SideBarEnhancements",
+		"SmartMarkdown",
+		"SublimeCodeIntel",
+		"sublimelint",
+		"SublimeTmpl"
+	]
+}
