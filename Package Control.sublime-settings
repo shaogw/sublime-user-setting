@@ -2,13 +2,8 @@
 	"installed_packages":
 	[
 		"AutoFileName",
-		"Better Completion",
-		"ColorPicker",
 		"Emmet",
-		"FileOpTabContextMenu",
-		"JavaScript & NodeJS Snippets",
-		"jQuery",
-		"LESS",
+		"File Navigator",
 		"Markdown Extended",
 		"Markdown Preview",
 		"MarkdownEditing",
@@ -17,8 +12,6 @@
 		"RegReplace",
 		"SideBarEnhancements",
 		"SmartMarkdown",
-		"SublimeCodeIntel",
-		"sublimelint",
-		"SublimeTmpl"
+		"Table Editor"
 	]
 }

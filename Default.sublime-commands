@@ -1,0 +1,13 @@
+[
+	// markdown的链接[]()替换
+	{
+		"caption": "Reg replace: markdown [1](2) to [2]: 1",
+		"command": "reg_replace",
+		"args": { "replacements": ["markdown-inline-url-to-reference"], "multi_pass": true }
+	},
+		{
+		"caption": "Reg replace: markdown: [1](2) to [2](1)",
+		"command": "reg_replace",
+		"args": { "replacements": ["markdown-inline-url-swap"], "multi_pass": true }
+	}
+]

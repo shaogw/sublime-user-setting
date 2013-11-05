@@ -1,26 +1,30 @@
 [
-	// Markdown Preview 的快速预览快捷键
+	// Markdown Preview插件的快捷键预览
+	{ 
+        "keys": ["alt+m"],
+        "command": "markdown_preview",
+        "args": {
+            "target": "browser",
+            "parser": "markdown",
+            // "extensions": "toc",
+        } 
+    },
 	{
-		"keys": ["alt+m"],
-		"command": "markdown_preview",
-		"args": {"target": "browser", "parser":"markdown"} 
+		"keys": ["alt+ctrl+."], "command": "change_heading_level",
+		"args": {"up": true}, "context":
+			[
+				{"key": "selector", "operator": "equal", "operand": "text.html.markdown"}
+			]
 	},
-    {
-        "keys": ["alt+ctrl+."], "command": "change_heading_level",
-        "args": {"up": true}, "context":
-            [
-                {"key": "selector", "operator": "equal", "operand": "text.html.markdown"}
-            ]
-    },
-    {
-        "keys": ["alt+ctrl+,"], "command": "change_heading_level",
-        "args": {"up": false}, "context":
-            [
-                {"key": "selector", "operator": "equal", "operand": "text.html.markdown"}
-            ]
-    },
-    
-    // 以下是Markdown Editing插件的快捷键，直接使用
+	{
+		"keys": ["alt+ctrl+,"], "command": "change_heading_level",
+		"args": {"up": false}, "context":
+			[
+				{"key": "selector", "operator": "equal", "operand": "text.html.markdown"}
+			]
+	},
+	
+	// 以下是Markdown Editing插件的快捷键，直接使用
     // selection pairing with *, _ and `
     { "keys": ["*"], "command": "insert_snippet", "args": {"contents": "*$0*"}, "context":
      [

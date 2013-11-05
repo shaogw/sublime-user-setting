@@ -1,8 +1,17 @@
 {
+	"auto_match_enabled": true,
+	"caret_style": "wide",
+	"draw_centered": true,
 	"extensions":
 	[
-		"md",
 		"mdown",
 		"mmd"
-	]
+	],
+	"highlight_line": true,
+	"line_padding_top": 5,
+	"match_header_hashes": false,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": false,
+	"word_wrap": true,
+	"wrap_width": 70
 }

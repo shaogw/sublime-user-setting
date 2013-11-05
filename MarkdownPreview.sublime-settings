@@ -23,7 +23,7 @@
         markdown2 - (Deprecated) Use the builtin python-markdown2 parser.
         github - User github API to convert markdown, so you can use GitHub flavored Markdown, see http://github.github.com/github-flavored-markdown/
     */
-    "parser": "markdown",
+    "parser": "default",
 
     /*
        Enable or not mathjax support.
@@ -54,6 +54,7 @@
 
     */
     "enabled_extensions": "default",
+// 
 
     /*
         Default mode for the github Markdon parser : markdown (documents) or gfm (comments)

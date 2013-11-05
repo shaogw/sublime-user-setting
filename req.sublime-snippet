@@ -1,0 +1,41 @@
+<snippet>
+	<content><![CDATA[
+% $TM_FILENAME${1} 
+% ${2:作者}
+% ${3:编辑日期}
+
+# 业务需求说明
+
+${4}
+
+# 软件修改说明
+
+## 主表
+
+### 字段说明
+
+- ${5}
+
+### 功能说明
+
+- ${7}
+
+## 『${8:××}』页签修改
+
+### 功能按钮：
+
+- ${9}
+
+### 字段说明：
+
+- ${10}
+
+## 『附件信息』页签
+
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>xqwd</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
